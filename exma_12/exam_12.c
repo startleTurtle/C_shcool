@@ -54,4 +54,18 @@ void main() {
 	default:
 		printf("연산자를 잘못 입력했습니다. \n");
 	}*/
+
+	/*int i;
+	
+ 	for(i = 0; i < 3; i++) {
+	    printf("안녕하세요?\n");
+            printf("##또 안녕하세요?## \n");
+	}
+
+	printf("\n\n");
+
+	for (i = 0; i < 3; i++)
+	    printf("안녕하세요?\n");
+	    printf("##또 안녕하세요?## \n");
+	*/
 }
