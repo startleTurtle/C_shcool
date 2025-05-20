@@ -68,4 +68,22 @@ void main() {
 	    printf("안녕하세요?\n");
 	    printf("##또 안녕하세요?## \n");
 	*/
+
+		/*int hap = 0;
+	int i;
+	for (i = 501; i <= 1000; i += 2) {
+		hap = hap + i;
+	}
+
+	printf("500에서 1000까지의 홀수의 합: %d \n", hap);
+	*/
+
+	/*int hap = 0;
+	int i;
+
+	for (i = 3; i <= 100; i += 3) {
+		hap += i;
+	}
+	printf("1에서 100까지의 3의 배수의 합: %d", hap);
+	*/
 }
