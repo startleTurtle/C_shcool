@@ -109,4 +109,87 @@ void main() {
 			printf("중첩 for문입니다.(i값: %d, k값: %d)\n", i, k);
 		}
 	}*/
+
+		int menu, option;
+
+	printf("\nWelcome to the MJC Vending Machine\n");
+	printf("----------------------------\n");
+	printf("메뉴 1. 커피(Hot)\n");
+	printf("메뉴 2. 차(Cold)\n");
+	printf("메뉴 3. 기타음료\n");
+	printf("----------------------------\n");
+
+	printf("Select an menu(Press Ctrl-C to Exit): ");
+	scanf("%d", &menu);
+
+	if (menu == 1) {
+		printf("메뉴 1. 커피(Hot)\n");
+		printf("(1) 아메리카노, (2) 연한 아메리카노, (3) 카페라떼, (4) 카푸치노 \n\n");
+		printf("선택해 주세요: ");
+		scanf("%d", &option);
+
+		switch (option) {
+		case 1:
+			printf("아메리카노 나왔습니다.\n");
+			break;
+		case 2:
+			printf("연한 아메리카노 나왔습니다.\n");
+			break;
+		case 3:
+			printf("카페라떼 나왔습니다.\n");
+			break;
+		case 4:
+			printf("카푸치노 나왔습니다.\n");
+			break;
+		default:
+			printf("다시 선택해주세요\n");
+		}
+	} else if (menu == 2) {
+		printf("메뉴 2. 차(Cold)\n");
+		printf("(1) 아이스 아메리카노, (2) 체리 아이스티, (3) 복숭아 아이스티, (4) 레몬 아이스티 \n\n");
+		printf("선택해 주세요: ");
+		scanf("%d", &option);
+
+		switch (option) {
+		case 1:
+			printf("아이스 아메리카노 나왔습니다.\n");
+			break;
+		case 2:
+			printf("체리 아이스티 나왔습니다.\n");
+			break;
+		case 3:
+			printf("복숭아 아이스티 나왔습니다.\n");
+			break;
+		case 4:
+			printf("레몬 아이스티 나왔습니다.\n");
+			break;
+		default:
+			printf("다시 선택해주세요\n");
+		}
+	} else if (menu == 3) {
+		printf("메뉴 3. 기타음료\n");
+		printf("(1) 핫초코, (2) 초코밀크, (3) 모카치노, (4) 녹차라떼 \n\n");
+
+		printf("선택해 주세요: ");
+		scanf("%d", &option);
+
+		switch (option) {
+		case 1:
+			printf("핫초코 나왔습니다.\n");
+			break;
+		case 2:
+			printf("초코밀크 나왔습니다.\n");
+			break;
+		case 3:
+			printf("모카치노 나왔습니다.\n");
+			break;
+		case 4:
+			printf("녹차라떼 나왔습니다.\n");
+			break;
+		default:
+			printf("다시 선택해주세요\n");
+		}
+	} else {
+		printf("다시 선택해 주세요\n");
+	}
 }
