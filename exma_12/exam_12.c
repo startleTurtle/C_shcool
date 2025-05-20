@@ -6,50 +6,52 @@ void main() {
 	//char ch;
 
 	/*
-	printf("Ã¹ ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ì²« ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d", &a);
-	printf("°è»êÇÒ ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ê³„ì‚°í•  ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf(" %c", &ch); //scanf_s(" %c", &ch, 1);
-	printf("µÎ ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ë‘ ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d", &b);
 
 	if (ch == '+') {
-		printf("%d + %d = %d ÀÔ´Ï´Ù. \n", a, b, a + b);
+		printf("%d + %d = %d ì…ë‹ˆë‹¤. \n", a, b, a + b);
 	}
 	else if (ch == '-') {
-		printf("%d - %d = %d ÀÔ´Ï´Ù. \n", a, b, a - b);
+		printf("%d - %d = %d ì…ë‹ˆë‹¤. \n", a, b, a - b);
 	}
 	else if (ch == '*') {
-		printf("%d * %d = %d ÀÔ´Ï´Ù. \n", a, b, a * b);
+		printf("%d * %d = %d ì…ë‹ˆë‹¤. \n", a, b, a * b);
 	}
 	else if (ch == '/') {
-		printf("%d / %d = %f ÀÔ´Ï´Ù. \n", a, b, a / (float)b);
+		printf("%d / %d = %f ì…ë‹ˆë‹¤. \n", a, b, a / (float)b);
 	}
 	else if (ch == '%') {
-		printf("%d %% %d = %d ÀÔ´Ï´Ù. \n", a, b, a % b);
+		printf("%d %% %d = %d ì…ë‹ˆë‹¤. \n", a, b, a % b);
 	}
 	else {
-		printf("¿¬»êÀÚ¸¦ Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù. \n");
+		printf("ì—°ì‚°ìë¥¼ ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤. \n");
 	}*/
-	/*printf("¼ö½ÄÀ» ÇÑ ÁÙ·Î ¶ç¾î¾²±â·Î ÀÔ·ÂÇÏ¼¼¿ä : ");
+
+	
+	/*printf("ìˆ˜ì‹ì„ í•œ ì¤„ë¡œ ë„ì–´ì“°ê¸°ë¡œ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d %c %d", &a, &ch, &b); //scnaf_s("%d %c %d", &a, &ch, 1, &b);
 
 	switch (ch) {
 	case '+':
-		printf("%d + %d = %d ÀÔ´Ï´Ù. \n", a, b, a + b);
+		printf("%d + %d = %d ì…ë‹ˆë‹¤. \n", a, b, a + b);
 	case '-':
-		printf("%d - %d = %d ÀÔ´Ï´Ù. \n", a, b, a - b);
+		printf("%d - %d = %d ì…ë‹ˆë‹¤. \n", a, b, a - b);
 		break;
 	case '*':
-		printf("%d * %d = %d ÀÔ´Ï´Ù. \n", a, b, a * b);
+		printf("%d * %d = %d ì…ë‹ˆë‹¤. \n", a, b, a * b);
 		break;
 	case '/':
-		printf("%d + %d = %d ÀÔ´Ï´Ù. \n", a, b, a / b);
+		printf("%d + %d = %d ì…ë‹ˆë‹¤. \n", a, b, a / b);
 		break;
 	case '%':
-		printf("%d %% %d = %d ÀÔ´Ï´Ù. \n", a, b, a % b);
+		printf("%d %% %d = %d ì…ë‹ˆë‹¤. \n", a, b, a % b);
 		break;
 	default:
-		printf("¿¬»êÀÚ¸¦ Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù. \n");
+		printf("ì—°ì‚°ìë¥¼ ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤. \n");
 	}*/
 }
