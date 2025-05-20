@@ -95,4 +95,18 @@ void main() {
 	}
 	printf("%d에서 %d까지 %d씩 증가한 값의 합: %d \n", num1, num2, num3, hap);
 	*/
+
+		/*for (int i = 2; i <= 9; i++) {
+		printf("## 제 %d단 ##\n", i);
+		for (int ii = 1; ii <= 9; ii++) {
+			printf("%d X %d = %d\n", i, ii, i * ii);
+		}
+	}*/
+
+	/*int i, k;
+	for (i = 0; i < 3; i++) {
+		for (k = 0; k < 2; k++) {
+			printf("중첩 for문입니다.(i값: %d, k값: %d)\n", i, k);
+		}
+	}*/
 }
